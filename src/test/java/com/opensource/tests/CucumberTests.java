@@ -63,17 +63,7 @@ public class CucumberTests {
         }
     }
 
-    @When("User clicks {string}")
-    public void user_clicks(String btn) {
-        switch (btn) {
-            case ("btnAdd") -> viewPayGrades.clickAddBtn();
-            case ("btnSave") -> addNameGrade.clickSaveBtn();
-            case ("addCurrencyBtn") -> addCurrency.clickAddCurrencyBtn();
-            case ("saveCurrencyBtn") -> addCurrency.clickSaveCurrencyBtn();
-        }
 
-
-    }
     @When("User fills {string} field with {string}")
     public void user_fills_field_with(String field, String value) {
         switch (field) {
@@ -104,7 +94,7 @@ public class CucumberTests {
     }
 
     @When("User saves using {string}")
-    public void user_save_using(String btn) {
+    public void user_saves_using(String btn) {
         switch (btn) {
             case ("btnSave") -> addNameGrade.clickSaveBtn();
             case ("saveCurrencyBtn") -> addCurrency.clickSaveCurrencyBtn();
