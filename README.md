@@ -8,5 +8,5 @@ Launching(in Intellij IDEA):
 5. Get file with code from this branch.
 6. Run chromedriver.exe
 7. In System.setProperty("webdriver.chrome.driver","XXX") set XXX as path to chromedriver.exe on your PC (with chromedriver.exe).
-8. Run it.
+8. Run .feature file.
 9. To open Cucumber Report see "View your Cucumber Report at:" in Run window.
