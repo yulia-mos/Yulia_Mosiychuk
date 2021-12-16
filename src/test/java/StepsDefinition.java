@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 public class StepsDefinition {
-    private static final String ACCESS_TOKEN = "sl.A-QDhVrPYxygIZS4tYdTiwbr_-lEtCXrp5nFwQt71fSc0iSegf0FGF-N3gtqiCVzV2At4vVYS8GQA9ubx79sE2qRYo-m8J4MGJJtHmjmFLiSi0wsr0tMjNj_fAWDhwh3LEOf3fE";
+    private static final String ACCESS_TOKEN = "WCn7fGTmUUsAAAAAAAAAAa0S0z5YMQ42iS4UlC3jrGURzCb7m2IVHdp1kv4_DDE8";
     private static DbxClientV2 client;
     private static InputStream in;
     private static Metadata metadata;
