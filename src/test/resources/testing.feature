@@ -6,7 +6,7 @@ Feature: File manipulation testing
     Then User can get info on file with name <fileName>
     Examples:
       |path|fileName|
-      |"C:\\Labs\\DevelopTest\\text.txt"|"text.txt"|
+      |"target/text.txt"|"text.txt"|
 @GetMetadata
   Scenario Outline: Get File Metadata
     Given File <fileName> is uploaded

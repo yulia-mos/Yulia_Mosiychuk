@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="DropboxTest" time="4.708" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="DropboxTest" time="4.698" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.2.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -61,7 +61,7 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="File manipulation testing" name="Upload file" time="3.177"/>
-  <testcase classname="File manipulation testing" name="Get File Metadata" time="0.398"/>
-  <testcase classname="File manipulation testing" name="Delete file" time="1.133"/>
+  <testcase classname="File manipulation testing" name="Upload file" time="2.955"/>
+  <testcase classname="File manipulation testing" name="Get File Metadata" time="0.419"/>
+  <testcase classname="File manipulation testing" name="Delete file" time="1.324"/>
 </testsuite>
