@@ -6,7 +6,7 @@ Feature: File manipulation testing
     Then User can get info on file with name <fileName>
     Examples:
       |path|fileName|
-      |"target/text.txt"|"text.txt"|
+      |"hello.txt"|"hello.txt"|
 @GetMetadata
   Scenario Outline: Get File Metadata
     Given File <fileName> is uploaded
@@ -14,7 +14,7 @@ Feature: File manipulation testing
     Then User sees file metadata
     Examples:
       |fileName|
-      |"text.txt"|
+      |"hello.txt"|
  @Delete
  Scenario Outline: Delete file
    Given File <fileName> is uploaded
@@ -22,7 +22,7 @@ Feature: File manipulation testing
    Then File is deleted
    Examples:
      |fileName|
-     |"text.txt"|
+     |"hello.txt"|
 
 
 
